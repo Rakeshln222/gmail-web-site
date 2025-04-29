@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="left-section">
+            <button class="menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png" alt="Gmail Logo" class="gmail-logo">
+        </div>
+        <div class="middle-section">
+            <div class="search-bar">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+                <input type="text" placeholder="Search mail">
+            </div>
+        </div>
+        <div class="right-section">
+            <button class="settings-button">
+                <i class="fas fa-cog"></i>
+            </button>
+            <button class="apps-button">
+                <i class="fas fa-th"></i>
+            </button>
+            <button class="account-button">R</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <button class="compose-button">
+                <i class="fas fa-plus"></i>
+                Compose
+            </button>
+            <div class="sidebar-options">
+                <div class="sidebar-option active">
+                    <i class="fas fa-inbox"></i>
+                    <span>Inbox</span>
+                </div>
+                <div class="sidebar-option">
+                    <i class="fas fa-star"></i>
+                    <span>Starred</span>
+                </div>
+                <div class="sidebar-option">
+                    <i class="fas fa-clock"></i>
+                    <span>Snoozed</span>
+                </div>
+                <div class="sidebar-option">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Sent</span>
+                </div>
+                <div class="sidebar-option">
+                    <i class="fas fa-file"></i>
+                    <span>Drafts</span>
+                </div>
+                <div class="sidebar-option">
+                    <i class="fas fa-trash"></i>
+                    <span>Trash</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Email List -->
+        <div class="email-list">
+            <div class="email-list-settings">
+                <div class="email-list-settings-left">
+                    <input type="checkbox" class="checkbox">
+                    <button class="settings-button">
+                        <i class="fas fa-redo"></i>
+                    </button>
+                    <button class="settings-button">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+                <div class="email-list-settings-right">
+                    <span class="email-count">1-50 of 1,123</span>
+                    <button class="settings-button">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="settings-button">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Email List Items -->
+            <div class="email-list-items">
+                <div class="email-item unread">
+                    <input type="checkbox" class="checkbox">
+                    <i class="fas fa-star"></i>
+                    <h3 class="sender">Google</h3>
+                    <div class="email-content">
+                        <span class="subject">Welcome to Gmail - </span>
+                        <span class="message">Get started with your new account</span>
+                    </div>
+                    <span class="time">3:45 PM</span>
+                </div>
+                <!-- Add more email items as needed -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
