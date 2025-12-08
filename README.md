@@ -89,10 +89,5 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 ## 👨‍💻 Author
 
 **Rakesh L N**
-*   GitHub: [@Rakeshln222](https://github.com/Rakeshln222)
+*   GitHub: https://github.com/Rakeshln222
 
-
-
----
-
-**Note:** This is a UI/UX clone for educational and portfolio purposes. It is not affiliated with Google or Gmail. This project does not handle real email data or authentication.
